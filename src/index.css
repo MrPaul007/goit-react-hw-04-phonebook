@@ -13,3 +13,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  padding-left: 25px;
+}
+
+.contactForm {
+  width: 350px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border: 1px solid black;
+}
+
+.addBtn {
+  font-size: 15px;
+  display: flex;
+  margin-top: 20px;
+  padding: 2px 5px;
+  background-color: rgba(241, 244, 244, 0.932);
+  border: 1px solid rgba(181, 232, 229, 0.682);
+  border-radius: 10%;
+}
+
+.addBtn:hover {
+  background-color: rgba(138, 185, 163, 0.839);
+}
+
+.listItem {
+  margin: 10px;
+}
+
+.contactItem {
+  display: inline;
+  margin: 0;
+
+}
+
+.deleteBtn {
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 2px 5px;
+  background-color: rgba(241, 244, 244, 0.932);
+  border: 1px solid rgba(181, 232, 229, 0.682);
+  border-radius: 10%;
+}
+
+.deleteBtn:hover {
+  background-color: rgba(138, 185, 163, 0.839);
+}
